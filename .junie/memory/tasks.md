@@ -28,3 +28,13 @@
     "NEW INSTRUCTION": "WHEN target file already exists THEN open it and modify in place"
 }
 
+[2026-01-21 13:42] - Updated by Junie - Trajectory analysis
+{
+    "PLAN QUALITY": "near-optimal",
+    "REDUNDANT STEPS": "list folder,create ad-hoc test,delete ad-hoc test",
+    "MISSING STEPS": "-",
+    "BOTTLENECK": "Time spent fixing an ad-hoc test error unrelated to deliverable.",
+    "PROJECT NOTE": "-",
+    "NEW INSTRUCTION": "WHEN task scope is single-file addition without tests THEN skip creating ad-hoc test files"
+}
+
