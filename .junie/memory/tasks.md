@@ -38,3 +38,33 @@
     "NEW INSTRUCTION": "WHEN task scope is single-file addition without tests THEN skip creating ad-hoc test files"
 }
 
+[2026-01-22 11:52] - Updated by Junie - Trajectory analysis
+{
+    "PLAN QUALITY": "near-optimal",
+    "REDUNDANT STEPS": "scan project",
+    "MISSING STEPS": "-",
+    "BOTTLENECK": "Unnecessary project scanning before straightforward file creation.",
+    "PROJECT NOTE": "-",
+    "NEW INSTRUCTION": "WHEN task is single-file addition with clear file path THEN create or edit the file immediately"
+}
+
+[2026-01-22 11:57] - Updated by Junie - Trajectory analysis
+{
+    "PLAN QUALITY": "near-optimal",
+    "REDUNDANT STEPS": "-",
+    "MISSING STEPS": "-",
+    "BOTTLENECK": "Discovering param propagation required context across files before adding mergeParams.",
+    "PROJECT NOTE": "-",
+    "NEW INSTRUCTION": "WHEN child router needs parent route params THEN create Router with mergeParams: true"
+}
+
+[2026-01-22 12:10] - Updated by Junie - Trajectory analysis
+{
+    "PLAN QUALITY": "near-optimal",
+    "REDUNDANT STEPS": "-",
+    "MISSING STEPS": "set default limit to 100",
+    "BOTTLENECK": "Default limit was set to 10 instead of 100.",
+    "PROJECT NOTE": "listCommentaryQuerySchema caps at 100 but has no default; enforce 100 in code.",
+    "NEW INSTRUCTION": "WHEN task specifies default limit and schema lacks default THEN set that default explicitly in the route handler"
+}
+
