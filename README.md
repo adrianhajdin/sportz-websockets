@@ -138,12 +138,22 @@ Create a new file named `.env` in the root of your project and add the following
 ```env
 # Database
 DATABASE_URL=
+
+# Port & Host
 PORT=8000
-HOST=0.0.0.0
+HOST=0.0.0.0 
 
 # Arcjet
 ARCJET_KEY=""
 ARCJET_ENV="development"
+
+# API URL
+API_URL="http://localhost:8000"
+# API_URL="YOUR_REAL_PRODUCTION_URL"
+
+BROADCAST="1"
+DELAY_MS="250"
+MATCH_COUNT="0"
 ```
 
 Replace the placeholder values with your real credentials. You can get these by signing up at: [**Example**](https://jsm.dev/example).
