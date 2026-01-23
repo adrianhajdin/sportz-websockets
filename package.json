@@ -9,7 +9,8 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio",
-    "demo": "node src/crud-demo.js"
+    "demo": "node src/crud-demo.js",
+    "seed": "node src/seed/seed.js"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
   "dependencies": {
     "@arcjet/inspect": "^1.0.0-beta.17",
     "@arcjet/node": "^1.0.0-beta.17",
+    "apminsight": "^5.2.1",
     "dotenv": "^17.2.3",
     "drizzle-orm": "^0.45.1",
     "express": "^5.2.1",
