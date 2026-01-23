@@ -3,12 +3,13 @@
     <a href="" target="_blank">
       <img src="public/readme/readme-hero.webp" alt="Project Banner">
     </a>
-  <br />
+  <br /> 
 
   <div>
 <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white" /> 
 <img src="https://img.shields.io/badge/-Express_5-000000?style=for-the-badge&logo=Express&logoColor=white" /> 
 <img src="https://img.shields.io/badge/-WebSockets-010101?style=for-the-badge&logo=Socket.io&logoColor=white" />
+  <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=React&logoColor=black" />
 <br/>
 <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white" /> <img src="https://img.shields.io/badge/-Drizzle-C5F74F?style=for-the-badge&logo=Drizzle&logoColor=black" /> 
 <img src="https://img.shields.io/badge/-Zod-3E67B1?style=for-the-badge&logo=Zod&logoColor=white" />
@@ -51,6 +52,8 @@ If you're getting started and need assistance or face any bugs, join our active 
 <a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- **[React](https://react.dev/)** is a declarative, component-based UI library that helps developers build interactive user interfaces with efficient rendering. It provides core primitives for state management, component lifecycle, and a virtual DOM, ensuring that applications remain performant, scalable, and easy to maintain across complex web environments.
 
 - **[Arcjet](https://jsm.dev/sportz-arcjet)** is a security-first tool that helps developers protect their applications with just a few lines of code. It provides security primitives for rate limiting, bot protection, email validation, and sensitive data masking, ensuring the application remains secure and resilient.
 
